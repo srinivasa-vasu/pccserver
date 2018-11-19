@@ -28,7 +28,7 @@ If the default needs to be changed, let's say the locator listen port needs to b
 In a similar way, other options can be configured for the manager and cache server.
 
 == Cache creation
-Following code would initialize the Partitioned cache region on the embedded server,
+Following code would initialize the Partitioned cache region in the embedded server,
 ```
 @Bean(name = "formula1region")
 	PartitionedRegionFactoryBean formual1Region(Cache gemfireCache) {
